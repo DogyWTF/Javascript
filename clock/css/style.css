@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #0a1920;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+img {
+  position: absolute;
+  width: 500px;
+  opacity: 0.6;
+}
+.hour {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 500px;
+  height: 500px;
+}
+.hour div {
+  margin: -100px 0 0 0;
+  width: 10px;
+  height: 100px;
+  background-color: #380817;
+  border-radius: 5px;
+}
+.min {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+.min div {
+  margin: -150px 0 0 0;
+  width: 8px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.sec {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+.sec div {
+  margin: -120px 0 0 0;
+  width: 3px;
+  height: 220px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+.dot {
+  position: absolute;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+.pmam {
+  font-size: 50px;
+  margin: 0 0 150px 150px;
+  color: #9da3a5;
+  font-weight: 700;
+}
+
+input {
+  color: #9da3a5;
+  font-size: 30px;
+  margin: 100px 0 0 0;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #0a1920;
+  box-shadow: 0 -5px 5px rgba(255, 255, 255, 0.05),
+    inset 0 -5px 5px rgba(255, 255, 255, 0.05), 0 5px 5px rgba(0, 0, 0, 0.3),
+    inset 0 5px 5px rgba(0, 0, 0, 0.3);
+}
